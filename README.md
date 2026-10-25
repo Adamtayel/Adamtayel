@@ -1,10 +1,15 @@
-# Hi, I'm Adam Yasser Tayel
+<div align="center">
 
-### AI Engineer || AI Solution Architect || Founder of Tayel AI Labs
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Adam%20Yasser%20Tayel&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=34&desc=AI%20Engineer%20%7C%20AI%20Solution%20Architect%20%7C%20Founder%20of%20Tayel%20AI%20Labs&descAlignY=55&descSize=17" width="100%"/>
 
-*I Create Intelligence.* Architecting the future at the intersection of **Generative AI**, **Robotics**, and **Scalable Ecosystems**.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=I+Create+Intelligence.;Founder+of+Tayel+AI+Labs;Building+multi-agent+systems+and+LLM+routers;Researching+value+consistency+in+LLMs;Author+of+open+AI+engineering+courses)](https://adamtayel.online)
+
+<a href="https://github.com/Adamtayel?tab=followers"><img src="https://img.shields.io/github/followers/Adamtayel?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27&color=a78bfa" alt="followers" /></a>
+<img src="https://komarev.com/ghpvc/?username=Adamtayel&style=for-the-badge&color=blueviolet&labelColor=1a1b27&label=Profile+Views" alt="profile views" />
 
 **Portfolio:** [adamtayel.online](https://adamtayel.online) · Alexandria, Egypt
+
+</div>
 
 ---
 
@@ -30,17 +35,6 @@
 
 ---
 
-## The Tayel Ecosystem
-
-| | |
-|---|---|
-| **Tayel AI Labs** | AI transformation, custom APIs, intelligent chatbots, AI-native infrastructure |
-| **Tayel.Courses** | AI-only educational content: courses, labs, and pathways for practitioners who ship |
-| **Tayel.OurLife** | AI fashion: generative clothing design, silhouettes, and styles |
-| **Tayel.Image** | A premium library of high-end AI-generated artistic visuals |
-
----
-
 ## Certifications & Training
 
 - **Bachelor in Artificial Intelligence**: Arab Academy for Science & Technology (AASTMT) × UAB
@@ -59,7 +53,7 @@
 
 ---
 
-## Open Courses
+## Tayel AI Labs Open Courses
 
 [Advanced-AI](https://github.com/Tayel-Ai-Labs-Courses/Advanced-AI) ·
 [Mathematics-for-AI](https://github.com/Tayel-Ai-Labs-Courses/Mathematics-for-AI) ·
@@ -231,12 +225,25 @@
 
 ---
 
-### Let's Connect and Build Together!
+## Let's Build Together
 
-*Always excited to collaborate on AI, Robotics, and AI-native products!*
+```python
+from tayel_ai_labs import Adam
 
-I believe AI should be **built, measured, and shipped**, not just talked about. Through **Tayel AI Labs** I help teams turn ideas into real AI systems, and through **Tayel Courses** I share everything I learn along the way.
+adam = Adam(location="Alexandria, Egypt", mission="I Create Intelligence")
 
-Whether you're building something exciting, need an AI solution, or just want to explore new ideas, reach out via [LinkedIn](https://www.linkedin.com/in/adam-tayel-54a2bb330/) or my [portfolio](https://adamtayel.online).
+while adam.is_curious():
+    idea = adam.think()
+    model = adam.build(idea)
+    adam.measure(model)      # every number is a real run
+    adam.ship(model)
+    adam.teach(model)        # open courses, free for everyone
 
-Let's **learn**, **build**, and **innovate** together.
+# Got an idea worth building? Let's talk.
+adam.connect(
+    portfolio="https://adamtayel.online",
+    linkedin="https://www.linkedin.com/in/adam-tayel-54a2bb330/",
+)
+```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" width="100%"/>

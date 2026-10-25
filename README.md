@@ -1,15 +1,8 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Adam Yasser Tayel: AI Engineer, AI Solution Architect, Founder of Tayel AI Labs"/>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=200&section=header&text=Adam%20Yasser%20Tayel&fontSize=44&fontColor=fff&animation=twinkling&fontAlignY=34&desc=AI%20Engineer%20%7C%20AI%20Solution%20Architect%20%7C%20Founder%20of%20Tayel%20AI%20Labs&descAlignY=55&descSize=17" width="100%"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=I+Create+Intelligence.;Founder+of+Tayel+AI+Labs;Building+multi-agent+systems+and+LLM+routers;Researching+value+consistency+in+LLMs;Author+of+open+AI+engineering+courses)](https://adamtayel.online)
-
-<a href="https://github.com/Adamtayel?tab=followers"><img src="https://img.shields.io/github/followers/Adamtayel?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1b27&color=a78bfa" alt="followers" /></a>
-<img src="https://komarev.com/ghpvc/?username=Adamtayel&style=for-the-badge&color=blueviolet&labelColor=1a1b27&label=Profile+Views" alt="profile views" />
-
-**Portfolio:** [adamtayel.online](https://adamtayel.online) · Alexandria, Egypt
-
-</div>
+<p align="center"><b>Portfolio:</b> <a href="https://adamtayel.online">adamtayel.online</a> · Alexandria, Egypt</p>
 
 ---
 
@@ -215,12 +208,12 @@
 ## GitHub Stats
 
 <p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Adamtayel&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="Adam's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adamtayel&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Adamtayel&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=34d399&text_color=c9d1d9&count_private=true" alt="Adam's GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adamtayel&layout=compact&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=34d399&text_color=c9d1d9" alt="Top languages" />
 </p>
 
 <p align="left">
-  <img src="https://streak-stats.demolab.com?user=Adamtayel&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=Adamtayel&hide_border=true&background=0d1117&ring=22d3ee&fire=34d399&currStreakLabel=22d3ee&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8aa0ae&stroke=1f2a33" alt="GitHub streak" />
 </p>
 
 ---
@@ -246,4 +239,4 @@ adam.connect(
 )
 ```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%" alt=""/>

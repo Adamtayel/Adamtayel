@@ -207,13 +207,9 @@
 
 ## GitHub Stats
 
-<p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Adamtayel&show_icons=true&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=34d399&text_color=c9d1d9&count_private=true" alt="Adam's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adamtayel&layout=compact&hide_border=true&bg_color=0d1117&title_color=22d3ee&icon_color=34d399&text_color=c9d1d9" alt="Top languages" />
-</p>
-
-<p align="left">
-  <img src="https://streak-stats.demolab.com?user=Adamtayel&hide_border=true&background=0d1117&ring=22d3ee&fire=34d399&currStreakLabel=22d3ee&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8aa0ae&stroke=1f2a33" alt="GitHub streak" />
+<p align="center">
+  <img height="200" src="https://streak-stats.demolab.com?user=Adamtayel&hide_border=true&background=0d1117&ring=22d3ee&fire=34d399&currStreakLabel=22d3ee&sideLabels=c9d1d9&currStreakNum=34d399&sideNums=22d3ee&dates=8aa0ae&stroke=1f2a33&border_radius=12" alt="GitHub streak" />
+  <img height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Adamtayel&layout=donut&langs_count=6&card_width=320&hide_border=true&bg_color=0d1117&title_color=22d3ee&text_color=c9d1d9&border_radius=12" alt="Top languages" />
 </p>
 
 ---

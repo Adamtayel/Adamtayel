@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="710" viewBox="0 0 1200 710">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="806" viewBox="0 0 1200 806">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03060c"/><stop offset="1" stop-color="#0a1219"/></linearGradient>
 <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe7a3"/><stop offset=".55" stop-color="#f5c451"/><stop offset="1" stop-color="#b8862b"/></linearGradient>
 <radialGradient id="halo"><stop offset="0" stop-color="#f5c451" stop-opacity=".22"/><stop offset="1" stop-color="#f5c451" stop-opacity="0"/></radialGradient>
 <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<clipPath id="frame"><rect width="1200" height="710" rx="14"/></clipPath>
-<path id="r1" d="M 58,310 a 222,222 0 1,1 444,0 a 222,222 0 1,1 -444,0" fill="none"/><path id="r2" d="M 102,310 a 178,178 0 1,1 356,0 a 178,178 0 1,1 -356,0" fill="none"/><path id="r3" d="M 140,310 a 140,140 0 1,1 280,0 a 140,140 0 1,1 -280,0" fill="none"/>
+<clipPath id="frame"><rect width="1200" height="806" rx="14"/></clipPath>
+<path id="r1" d="M 48,403 a 222,222 0 1,1 444,0 a 222,222 0 1,1 -444,0" fill="none"/><path id="r2" d="M 92,403 a 178,178 0 1,1 356,0 a 178,178 0 1,1 -356,0" fill="none"/><path id="r3" d="M 130,403 a 140,140 0 1,1 280,0 a 140,140 0 1,1 -280,0" fill="none"/>
 </defs>
 <style>
-.cw{animation:spin 60s linear infinite;transform-origin:280px 310px}
-.ccw{animation:spin 40s linear infinite reverse;transform-origin:280px 310px}
-.slow{animation:spin 90s linear infinite;transform-origin:280px 310px}
+.cw{animation:spin 60s linear infinite;transform-origin:270px 403px}
+.ccw{animation:spin 40s linear infinite reverse;transform-origin:270px 403px}
+.slow{animation:spin 90s linear infinite;transform-origin:270px 403px}
 .crown{animation:float 4s ease-in-out infinite}
 .row{animation:fade 1s ease-out both}
 .gem{animation:pulse 2.4s ease-in-out infinite}
@@ -20,71 +20,85 @@
 @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
 </style>
 <g clip-path="url(#frame)">
-<rect width="1200" height="710" fill="url(#bg)"/>
-<g transform="translate(0,45)"><circle cx="280" cy="310" r="250" fill="url(#halo)"/>
-<circle cx="280" cy="310" r="246" fill="none" stroke="#f5c451" stroke-opacity=".35"/>
-<circle cx="280" cy="310" r="200" fill="none" stroke="#22d3ee" stroke-opacity=".15"/>
-<circle cx="280" cy="310" r="158" fill="none" stroke="#34d399" stroke-opacity=".15" stroke-dasharray="2 6"/>
-<circle cx="280" cy="310" r="118" fill="none" stroke="#f5c451" stroke-opacity=".3"/>
-
-<g class="slow"><text font-family="Georgia,'Times New Roman',serif" font-size="17" font-weight="700" letter-spacing="3" fill="url(#gold)"><textPath href="#r1" textLength="1387" lengthAdjust="spacing">THE EMPEROR OF PYTHON · THE EMPEROR OF PYTHON · THE EMPEROR OF PYTHON · THE EMPEROR OF PYTHON · </textPath></text></g>
-<g class="ccw"><text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#22d3ee"><textPath href="#r2" textLength="1112" lengthAdjust="spacing">numpy · pandas · pytorch · transformers · scikit-learn · fastapi · anthropic · openai · opencv · pyspark · pydantic · xgboost · </textPath></text></g>
-<g class="cw"><text font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="2" fill="#34d399" fill-opacity=".85"><textPath href="#r3" textLength="874" lengthAdjust="spacing">DATA · MACHINE LEARNING · DEEP LEARNING · LLMs &amp; APPS · VISION · BACKEND · DATA ENGINEERING · AUTOMATION &amp; DOCS · </textPath></text></g>
+<rect width="1200" height="806" fill="url(#bg)"/>
+<circle cx="270" cy="403" r="250" fill="url(#halo)"/>
+<circle cx="270" cy="403" r="246" fill="none" stroke="#f5c451" stroke-opacity=".35"/>
+<circle cx="270" cy="403" r="200" fill="none" stroke="#22d3ee" stroke-opacity=".15"/>
+<circle cx="270" cy="403" r="158" fill="none" stroke="#34d399" stroke-opacity=".15" stroke-dasharray="2 6"/>
+<circle cx="270" cy="403" r="118" fill="none" stroke="#f5c451" stroke-opacity=".3"/>
+<g class="slow"><text font-size="17" fill="url(#gold)" font-family="Georgia,'Times New Roman',serif" font-weight="700" letter-spacing="3"><textPath href="#r1" textLength="1389" lengthAdjust="spacingAndGlyphs">THE EMPEROR OF PYTHON · THE EMPEROR OF PYTHON · THE EMPEROR OF PYTHON · THE EMPEROR OF PYTHON · </textPath></text></g>
+<g class="ccw"><text font-size="13" fill="#22d3ee" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"><textPath href="#r2" textLength="1112" lengthAdjust="spacingAndGlyphs">numpy · pandas · pytorch · transformers · langchain · scikit-learn · fastapi · anthropic · opencv · geopandas · scapy · pyspark · streamlit · pydantic · </textPath></text></g>
+<g class="cw"><text font-size="10" fill="#34d399" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" letter-spacing="1" fill-opacity=".85"><textPath href="#r3" textLength="874" lengthAdjust="spacingAndGlyphs">DATA · MACHINE LEARNING · DEEP LEARNING · LLMs · AI AGENTS &amp; RAG · VISION · SECURITY · GIS · BACKEND · WEB &amp; FRONTEND · DATA ENGINEERING · AUTOMATION &amp; DOCS · </textPath></text></g>
 <g class="crown" filter="url(#glow)">
-<path d="M228,304 L220,252 L252,280 L280,238 L308,280 L340,252 L332,304 Z" fill="url(#gold)" stroke="#7a5714" stroke-width="1.5" stroke-linejoin="round"/>
-<rect x="226" y="302" width="108" height="14" rx="3" fill="url(#gold)" stroke="#7a5714" stroke-width="1.5"/>
-<circle class="gem" cx="280" cy="309" r="4" fill="#22d3ee"/><circle class="gem" cx="250" cy="309" r="3" fill="#34d399" style="animation-delay:-.8s"/><circle class="gem" cx="310" cy="309" r="3" fill="#34d399" style="animation-delay:-1.6s"/>
-<circle cx="220" cy="250" r="4" fill="url(#gold)"/><circle cx="280" cy="235" r="5" fill="url(#gold)"/><circle cx="340" cy="250" r="4" fill="url(#gold)"/>
+<path d="M218,397 L210,345 L242,373 L270,331 L298,373 L330,345 L322,397 Z" fill="url(#gold)" stroke="#7a5714" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="216" y="395" width="108" height="14" rx="3" fill="url(#gold)" stroke="#7a5714" stroke-width="1.5"/>
+<circle class="gem" cx="270" cy="402" r="4" fill="#22d3ee"/><circle class="gem" cx="240" cy="402" r="3" fill="#34d399" style="animation-delay:-.8s"/><circle class="gem" cx="300" cy="402" r="3" fill="#34d399" style="animation-delay:-1.6s"/>
+<circle cx="210" cy="343" r="4" fill="url(#gold)"/><circle cx="270" cy="328" r="5" fill="url(#gold)"/><circle cx="330" cy="343" r="4" fill="url(#gold)"/>
 </g>
-<text x="280" y="366" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="44" font-weight="700" fill="#22d3ee" filter="url(#glow)">56</text>
-<text x="280" y="390" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="3" fill="#8aa0ae">LIBRARIES</text>
-
-</g>
-<text x="560" y="78" font-family="Georgia,'Times New Roman',serif" font-size="38" font-weight="700" letter-spacing="2" fill="url(#gold)" filter="url(#glow)">The Emperor of Python</text>
-<text x="560" y="112" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15"><tspan fill="#34d399">&gt;&gt;&gt;</tspan><tspan fill="#e2f4f8"> import empire</tspan><tspan fill="#4b5d6b">   # every library here is imported in my repos</tspan></text>
-<line x1="560" y1="132" x2="1150" y2="132" stroke="#f5c451" stroke-opacity=".3"/>
+<text x="270" y="459" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="44" font-weight="700" fill="#22d3ee" filter="url(#glow)">92</text>
+<text x="270" y="483" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="3" fill="#8aa0ae">LIBRARIES</text>
+<text x="540" y="74" font-family="Georgia,'Times New Roman',serif" font-size="38" font-weight="700" letter-spacing="2" fill="url(#gold)" filter="url(#glow)">The Emperor of Python</text>
+<text x="540" y="106" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15"><tspan fill="#34d399">&gt;&gt;&gt;</tspan><tspan fill="#e2f4f8"> import empire</tspan><tspan fill="#4b5d6b">   # 12 provinces, one language</tspan></text>
+<line x1="540" y1="126" x2="1160" y2="126" stroke="#f5c451" stroke-opacity=".3"/>
 <g class="row" style="animation-delay:0.20s">
-<text x="560" y="168" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f5c451">DATA</text>
-<text x="750" y="168" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">numpy · pandas · scipy · statsmodels</text>
-<text x="750" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">matplotlib · seaborn · networkx · folium</text>
-<text x="750" y="212" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">geopy</text>
+<text x="540" y="160" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">DATA</text>
+<text x="720" y="160" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">numpy · pandas · polars · scipy · statsmodels</text>
+<text x="720" y="180" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">matplotlib · seaborn · plotly · networkx</text>
 </g>
-<g class="row" style="animation-delay:0.35s">
-<text x="560" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f5c451">MACHINE LEARNING</text>
-<text x="750" y="250" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">scikit-learn · xgboost · lightgbm · optuna</text>
-<text x="750" y="272" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">shap · joblib · mlflow</text>
+<g class="row" style="animation-delay:0.32s">
+<text x="540" y="213" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">MACHINE LEARNING</text>
+<text x="720" y="213" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">scikit-learn · xgboost · lightgbm · optuna · shap</text>
+<text x="720" y="233" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">joblib · mlflow</text>
 </g>
-<g class="row" style="animation-delay:0.50s">
-<text x="560" y="310" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f5c451">DEEP LEARNING</text>
-<text x="750" y="310" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">pytorch · torchvision · transformers · peft</text>
-<text x="750" y="332" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">open_clip · onnxruntime · whisper</text>
+<g class="row" style="animation-delay:0.44s">
+<text x="540" y="266" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">DEEP LEARNING</text>
+<text x="720" y="266" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">pytorch · torchvision · tensorflow · keras</text>
+<text x="720" y="286" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">transformers · peft · open_clip · onnxruntime</text>
 </g>
-<g class="row" style="animation-delay:0.65s">
-<text x="560" y="370" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f5c451">LLMs &amp; APPS</text>
-<text x="750" y="370" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">anthropic · openai · tiktoken · gradio</text>
-<text x="750" y="392" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">streamlit</text>
+<g class="row" style="animation-delay:0.56s">
+<text x="540" y="319" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">LLMs</text>
+<text x="720" y="319" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">anthropic · openai · tiktoken · sentence-transformers</text>
+<text x="720" y="339" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">whisper · speechrecognition</text>
+</g>
+<g class="row" style="animation-delay:0.68s">
+<text x="540" y="372" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">AI AGENTS &amp; RAG</text>
+<text x="720" y="372" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">langchain · langgraph · llama-index · crewai · autogen</text>
+<text x="720" y="392" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">mcp · claude-agent-sdk · chromadb · faiss · pinecone</text>
 </g>
 <g class="row" style="animation-delay:0.80s">
-<text x="560" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f5c451">VISION</text>
-<text x="750" y="430" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">opencv · pillow · pyzbar · qrcode</text>
+<text x="540" y="425" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">VISION</text>
+<text x="720" y="425" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">opencv · pillow · ultralytics · mediapipe · dlib</text>
+<text x="720" y="445" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">pyzbar · qrcode</text>
 </g>
-<g class="row" style="animation-delay:0.95s">
-<text x="560" y="468" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f5c451">BACKEND</text>
-<text x="750" y="468" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">fastapi · flask · pydantic · httpx · requests</text>
-<text x="750" y="490" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">sqlalchemy · psycopg · pymongo · bcrypt</text>
-<text x="750" y="512" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">itsdangerous · jsonschema · apscheduler</text>
-<text x="750" y="534" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">python-dotenv · python-telegram-bot</text>
+<g class="row" style="animation-delay:0.92s">
+<text x="540" y="478" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">SECURITY</text>
+<text x="720" y="478" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">scapy · cryptography · paramiko · pwntools · impacket</text>
+<text x="720" y="498" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">python-nmap · yara-python</text>
 </g>
-<g class="row" style="animation-delay:1.10s">
-<text x="560" y="572" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f5c451">DATA ENGINEERING</text>
-<text x="750" y="572" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">pyspark · airflow · duckdb</text>
+<g class="row" style="animation-delay:1.04s">
+<text x="540" y="531" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">GIS</text>
+<text x="720" y="531" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">geopandas · shapely · folium · geopy · osmnx · rasterio</text>
 </g>
-<g class="row" style="animation-delay:1.25s">
-<text x="560" y="610" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.5" fill="#f5c451">AUTOMATION &amp; DOCS</text>
-<text x="750" y="610" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">playwright · pymupdf · pypdf2 · reportlab</text>
-<text x="750" y="632" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#c9d1d9">fpdf · pyserial · pytest</text>
+<g class="row" style="animation-delay:1.16s">
+<text x="540" y="564" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">BACKEND</text>
+<text x="720" y="564" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">fastapi · flask · django · pydantic · sqlalchemy · httpx</text>
+<text x="720" y="584" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">requests · psycopg · pymongo · bcrypt · apscheduler</text>
+<text x="720" y="604" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">python-telegram-bot</text>
 </g>
-<text x="560" y="686" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4b5d6b">&gt;&gt;&gt; empire.status()  # "still expanding"</text>
+<g class="row" style="animation-delay:1.28s">
+<text x="540" y="637" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">WEB &amp; FRONTEND</text>
+<text x="720" y="637" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">streamlit · gradio · reflex · nicegui · flet · jinja2</text>
+<text x="720" y="657" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">beautifulsoup4 · selenium · scrapy · playwright</text>
 </g>
-<rect x="1" y="1" width="1198" height="708" rx="14" fill="none" stroke="#f5c451" stroke-opacity=".3"/>
+<g class="row" style="animation-delay:1.40s">
+<text x="540" y="690" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">DATA ENGINEERING</text>
+<text x="720" y="690" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">pyspark · airflow · duckdb · kafka-python</text>
+</g>
+<g class="row" style="animation-delay:1.52s">
+<text x="540" y="723" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#f5c451">AUTOMATION &amp; DOCS</text>
+<text x="720" y="723" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#c9d1d9">pymupdf · pypdf2 · reportlab · fpdf · pyserial · pytest</text>
+</g>
+<text x="540" y="784" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4b5d6b">&gt;&gt;&gt; empire.status()  # "still expanding"</text>
+</g>
+<rect x="1" y="1" width="1198" height="804" rx="14" fill="none" stroke="#f5c451" stroke-opacity=".3"/>
 </svg>

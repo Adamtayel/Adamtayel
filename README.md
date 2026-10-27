@@ -205,6 +205,14 @@
 
 ---
 
+## The Emperor of Python
+
+<p align="center">
+  <img src="./assets/emperor.svg" width="100%" alt="The Emperor of Python: 56 Python libraries imported across my repos, grouped into Data, Machine Learning, Deep Learning, LLMs and Apps, Vision, Backend, Data Engineering, and Automation"/>
+</p>
+
+---
+
 ## GitHub Stats
 
 <p align="center">
